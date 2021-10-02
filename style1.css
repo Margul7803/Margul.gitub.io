@@ -1,0 +1,55 @@
+code
+{
+	background-color: #8CCBFF;
+	color: white;
+	font-size: 2rem;
+	font-family: Verdana
+	border:2px solid #45ABFF;
+	display: block;
+	text-align: center;
+	border-radius: 8px;
+}
+section
+{
+	width: 30%;
+	height: 400px;
+	border: 2px solid #45ABFF;
+	float:left;
+	border-radius: 8px;
+	margin: 12px 1.5% 24px 1.5%;
+	
+}
+header
+{
+	clear: both;
+	border:2px solid #45ABFF;
+	border-radius: 8px;
+}
+footer
+{
+	clear: both;
+	border:2px solid #45ABFF;
+	border-radius: 8px;
+}
+p
+{
+	padding: 5px;
+	text-align:justify; 
+
+}
+.c1
+{
+	background-color: white;}
+
+.c2
+{
+	background-color: grey
+}
+.p1
+{
+	color: black
+}
+.p2
+{
+	color: white
+}
