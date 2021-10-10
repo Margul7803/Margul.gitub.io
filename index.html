@@ -2,17 +2,39 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Acceuil</title>
-	<link rel="stylesheet" type="text/css" href="style_main.css">
+	<title>Menu responsive déroulant</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="stylem1.css">
+	<script type="text/javascript" src="script.js"></script>
 </head>
-<body bgcolor="#112337">
-	<a href="https://www.youtube.com/watch?v=7YwvPnuqAy4"><img src="Karmine_Corp_logo1.png" width="180" height="180"></a>
-	<center>Ancien travail</center><br>
-	<header><a href="old_index.html"><button>PREMIER SITE</button></a>&nbsp;&nbsp;<a href="https://margul7803.github.io/Margul/"><button>IFRAME</button></a></header>
-	<center>Travail en cours</center><br>
-	<code>
-	<a href="CSS_menu.html"><button>TP CSS</button></a>
-	</code>
-
+<body bgcolor="#112337" onload="initElement();">
+	<header>
+	<nav>
+		<label for="menu-mobile" class="menu-mobile">Menu</label>
+		<input type="checkbox" id="menu-mobile" role="button">
+			<img src="Karmine_corp_logo1.png" width="5%" height="5%">
+			<button>Bouinbouin</button>
+			<ul>
+			<li class="menu-html"><a href="#" class="partie">HTML</a>
+				<ul class="submenu">
+					<li><a href="old_index.html">Ancien site</a></li>
+					<li><a href="https://margul7803.github.io/Margul/">Iframe</a></li>
+				</ul>
+			</li>
+			<li class="menu-html"><a href="#" class="partie">CSS</a>
+				<ul class="submenu">
+					<li><a href="CSS_menu.html">TP</a></li>
+					<li><a href="Mission_menu.html">Mission</a></li>
+				</ul>
+			</li>
+			<li class="menu-html"><a href="#" class="partie">JavaScript</a>
+				<ul class="submenu">
+					<li><a href="#">En cours...</a></li>
+				</ul>
+			</li>
+		</ul>
+		<div>Heureux de vous (re)voir</div>
+	</nav>
+	</header>
 </body>
 </html>

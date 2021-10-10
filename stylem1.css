@@ -4,11 +4,17 @@ body
 	margin: 0px;
 	padding: 0px;
 }
-
+img
+{
+	float: left;
+	margin-top:12px ;
+	padding-right: 50px;
+}
 nav>ul
 {
-	margin: 0px;
-	padding: 0px;
+	margin-top: 0px;
+	padding: 15px;
+	border-bottom: 4px solid #00d8e9;
 }
 nav li
 {
@@ -18,7 +24,8 @@ nav li
 nav>ul>li
 {
 	float: left;
-	position: relative;
+	position: relative ;
+	margin-top:5px ;
 }
 .submenu
 {
@@ -34,6 +41,7 @@ nav input[type=checkbox]
 {
 		display: none;
 }
+
 nav
 {
 	width: 100%;
@@ -53,9 +61,9 @@ nav a
 }
 nav>ul>li>a
 {
-	padding: 20px 30px;
 	color: #FFF;
 }
+
 nav li:hover .submenu
 {
 	display: inline-block;
@@ -65,32 +73,31 @@ nav li:hover .submenu
 	padding: 0px;
 	z-index: 100000;
 	transition: 0.5s;
+	padding-top: 32px;
+
 
 }
 .submenu li
 {
-	border-bottom: 1px solid #00d8e9;
 	transition: 0.5s;
+	border-bottom: 2px solid #00d8e9;
 }
 
 .submenu li a
 {
 	padding: 15px 30px;
-	font-size: 13px;
+	font-size: 15px;
 	color: white;
 	width: 270px;
-	transition: 0.5s
+	transition: 0.5
 }
 
 .menu-html
 {
-	border-bottom: 2px solid #00d8e9;
 	transition: 0.5s;
-
 }
 .menu-html:hover
 {
-	border-bottom: 3px solid #00d8e9;
 	background-color: #1A3350;
 	transition: 0.5s;
 }
@@ -110,7 +117,58 @@ nav input[type=checkbox]:checked ~ ul
 	display: block;
 }
 
-@media screen and (max-width : 680px)
+.partie
+{
+	font-size: 22px;
+	padding: 20px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+div
+{
+	color: white;
+	font-family: verdana;
+	font-size: 2vmax;
+	text-align: center;
+	margin-top: 280px;
+	animation: fadeIn ease 2.5s;
+}
+@keyframes fadeIn
+{
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+button
+{
+	color: #00d8e9;
+	font-family: verdana;
+	font-size: 25px;
+	float: right;
+	margin-top: 25px;
+	margin-right: 25px;
+	background: transparent;
+	cursor: pointer;
+	border: 2px solid #00d8e9;
+	border-radius: 5px;
+	text-decoration: None;
+	posittion:  relative;
+	padding: 10px 20px;
+	transition: .5s all;
+}
+
+button:hover 
+{
+	background-color: #00d8e9;
+	color: #112337;
+}
+
+@media screen and (max-width : 800px)
 {
 	.menu-mobile
 	{
@@ -121,6 +179,13 @@ nav input[type=checkbox]:checked ~ ul
 		color: #112337;
 		text-align: center;
 		padding: 12px 0;
+	}
+	.partie
+	{
+	font-size: 22px;
+	padding: 10px;
+	padding-left: 0px;
+	padding-right: 0px;
 	}
 	nav ul
 	{
