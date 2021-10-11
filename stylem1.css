@@ -81,6 +81,7 @@ nav li:hover .submenu
 {
 	transition: 0.5s;
 	border-bottom: 2px solid #00d8e9;
+	animation: fadeIn ease .8s;
 }
 
 .submenu li a
@@ -95,6 +96,7 @@ nav li:hover .submenu
 .menu-html
 {
 	transition: 0.5s;
+
 }
 .menu-html:hover
 {
@@ -123,6 +125,7 @@ nav input[type=checkbox]:checked ~ ul
 	padding: 20px;
 	padding-left: 50px;
 	padding-right: 50px;
+	animation: fadeIn ease 2.5s;
 }
 
 div
