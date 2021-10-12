@@ -1,0 +1,18 @@
+p1
+{
+	color: red
+}
+p2
+{
+	color: blue
+}
+.c
+{
+	color: red;
+	border: 2px solid blue;
+	width: 20%;
+	height:20%;
+	padding: 30px;
+	margin:auto;
+	background-color: yellow
+}

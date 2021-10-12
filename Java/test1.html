@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="stylejava.css">
+<script type="text/javascript">
+	//exo1
+	var note1=prompt("Donner une première note");
+	var note2=prompt("Donner une deuxième note");
+	var note3=prompt("Donner une troisième note");
+
+	var somme=note1*2+note2*2+note3*3;
+	var moyenne=somme/7;
+
+	if (moyenne>10)
+	{
+		document.write("trimestre validé")
+		document.bgColor="green"
+	}
+	else if (moyenne>=8)
+	{
+		document.write("rattrapage")
+		document.bgColor="orange"
+	}
+	else
+	{
+		document.write("trimestre invalidé")
+		document.bgColor="red"
+	}
+	document.write("<table border=2><tr>");
+	document.write("<td> voila la somme: "+somme+"</td>");
+	document.write("<td> voila la moyenne "+ moyenne+"</td>");
+	document.write("</tr></table>");
+
+	//exo2
+	// var nom=prompt("Donner votre nom");
+	// document.write("<p1>Bonjour</p1> "+"<p2>"+nom+"</p2>");
+
+	//exo3
+	// var nom=prompt("Donner votre nom");
+	// document.write("<div class=c><p1>Bonjour</p1> "+"<p2>"+nom+"</p2></div>");
+</script>
+
+</body>
+</html>
