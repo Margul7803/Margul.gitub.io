@@ -14,10 +14,6 @@ img
 {
   display: none;
 }
-a
-{
-	float: right;
-}
 nav>ul
 {
 	margin-top: 0px;
@@ -88,7 +84,6 @@ nav li:hover .submenu
 .submenu li
 {
 	transition: 0.5s;
-	border-bottom: 2px solid #00d8e9;
 	animation: fadeIn ease .8s;
 }
 
@@ -98,7 +93,8 @@ nav li:hover .submenu
 	font-size: 15px;
 	color: white;
 	width: 270px;
-	transition: 0.5
+	transition: 0.5;
+	border-bottom: 2px solid #00d8e9;
 }
 
 .menu-html
@@ -114,6 +110,7 @@ nav li:hover .submenu
 .submenu li:hover a
 {
 	color: #112337;
+	background-color: #00d8e9;
 	transition: 0.5s;
 }
 .menu-html .submenu li:hover
@@ -153,7 +150,10 @@ div
         opacity: 1;
     }
 }
-
+a
+{
+	float: right;
+}
 button
 {
 	color: #00d8e9;
