@@ -4,11 +4,15 @@ body
 	margin: 0px;
 	padding: 0px;
 }
-img
+.kcorp
 {
 	float: left;
 	margin-top:12px ;
 	padding-right: 50px;
+}
+img
+{
+  display: none;
 }
 nav>ul
 {
