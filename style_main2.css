@@ -6,12 +6,19 @@ header
 	margin: 350px 1.5% 24px 1.5%;
 
 }
-code
+code1
 {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 10px 1.5% 24px 1.5%;
+	margin: 5rem 1.5% 24px 1.5%;
+}
+code2
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 40px 1.5% 24px 1.5%;
 }
 h1
 {
@@ -26,7 +33,7 @@ button
 {
 	color: #00d8e9;
 	font-family: verdana;
-	font-size: 30px;
+	font-size: 12px;
 	background: transparent;
 	cursor: pointer;
 	border: 2px solid #00d8e9;
