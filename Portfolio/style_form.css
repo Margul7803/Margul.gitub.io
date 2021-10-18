@@ -1,0 +1,105 @@
+.page
+{
+	border: 5px solid white;
+	border-radius: 20px;
+	width: 800px;
+	height: 860px;
+	font-size: 13px;
+	font-family: Verdana;
+	margin: auto;
+	padding: 2px;
+}
+
+
+.entete
+{
+	height: 150px;
+	padding: 32px;
+}
+
+.info
+{
+	float: left;
+	padding: 20px;
+	margin-left: 0px;
+	padding-right: 10px;
+	font-size: 12px;
+}
+
+.nomprenom
+{
+	font-size: 35px;
+}
+
+.photo
+{
+	float: right;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 2px;
+}
+
+.section1
+{
+	height: 10px;
+	width: 40%;
+	margin: 2px 100px;
+	font-size: 15px;
+	float: left;
+
+}
+.section2
+{
+	float: right;
+	width: 230px;
+	height: 10px;
+	margin: 2px;
+	font-size: 15px;
+}
+
+.titre
+{
+	padding: 25px;
+	text-align: center;
+	font-size: 25px;
+	border: 2px solid white;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+.section 
+{
+	height: 50px;
+	width: 100%;
+	font-size: 10px;
+}                    
+span
+{
+	font-size: 20px;
+}
+
+body
+{
+	color: white;
+}
+
+button
+{
+	color: #00d8e9;
+	font-family: verdana;
+	font-size: 30px;
+	background: transparent;
+	cursor: pointer;
+	border: 2px solid #00d8e9;
+	border-radius: 5px;
+	text-decoration: None;
+	posittion:  relative;
+	padding: 10px 20px;
+	transition: .5s all;
+}
+
+button:hover 
+{
+	background-color: #00d8e9;
+	color: #112337;
+}
