@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<center>
+
+<h1>Facture en JavaScript</h1>
+
+
+<form>
+	<table border="2">
+<tr>
+<td>Article :</td>
+<td>Prix :</td>
+<td>Quantité :</td>
+<td>Résultat</td>	
+</tr>	
+<tr>
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation"> </td>
+<td><input id="prix1" name="prix1" type="text" value="0"></td>
+<td><input id="quantité1" name="quantité1" type="text" value="0"></td>
+<td><input id="résultat1" name="résultat1" type="text" value="0"></td>	
+</tr>	
+<tr>
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation"> </td>
+<td><input id="prix2" name="prix2" type="text" value="0"></td>
+<td><input id="quantité2" name="quantité2" type="text" value="0"></td>
+<td><input id="résultat2" name="résultat2" type="text" value="0"></td>	
+</tr>	
+<tr>
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation"> </td>
+<td><input id="prix3" name="prix3" type="text" value="0"></td>
+<td><input id="quantité3" name="quantité3" type="text" value="0"></td>
+<td><input id="résultat3" name="résultat3" type="text" value="0"></td>	
+</tr>	
+
+</center>
+
+
+	
+
+<script type="text/javascript">
+
+function calculate() 
+{
+var x=Number(document.getElementById("prix1").value);
+var y=Number(document.getElementById("quantité1").value);
+
+
+var e=Number(document.getElementById("prix2").value);
+var r=Number(document.getElementById("quantité2").value);
+
+
+var i=Number(document.getElementById("prix3").value);
+var o=Number(document.getElementById("quantité3").value);
+
+
+
+document.getElementById("résultat1").value=(x*y);
+document.getElementById("résultat2").value=(e*r);
+document.getElementById("résultat3").value=(i*o);
+
+}
+
+</script>
+
+
+	
+<tr>
+		<td><input onclick="calculate()" type="button" value="Caluler"></td>
+		<td><input type="reset"></td>
+		</tr>
+
+
+		
+	</table>
+</form>
+
+
+
+</body>
+</html>

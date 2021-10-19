@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<script type="text/javascript">
+	function calculate()
+	{
+		var p1=Number(document.getElementById("Prix1").value);
+		var q1=Number(document.getElementById("Quantite1").value);
+
+		var p2=Number(document.getElementById("Prix2").value);
+		var q2=Number(document.getElementById("Quantite2").value);
+
+		var p3=Number(document.getElementById("Prix3").value);
+		var q3=Number(document.getElementById("Quantite3").value);
+
+		document.getElementById("Resultat1").value=(p1*q1);
+		document.getElementById("Resultat2").value=(p2*q2);
+		document.getElementById("Resultat3").value=(p3*q3);
+	}
+</script>
+
+<form>
+<table border="2">
+	<tr>
+		<td>Article:</td>
+		<td>Prix:</td>
+		<td>Quantité:</td>
+		<td>Résultat:</td>
+	</tr>
+	<tr>
+		<td><input type="text" name="Article1" id="Article1" placeholder="Entrez la désignation"></td>
+		<td><input type="text" name="Prix1" value="0" id="Prix1"></td>
+		<td><input type="text" name="Quantite1" value="0" id="Quantite1"></td>
+		<td><input type="text" name="Resultat1" value="0" id="Resultat1"></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="Article2" id="Article2" placeholder="Entrez la désignation"></td>
+		<td><input type="text" name="Prix2" id="Prix2" value="0"></td>
+		<td><input type="text" name="Quantite2" id="Quantite2" value="0"></td>
+		<td><input type="text" name="Resultat2" id="Resultat2" value="0"></td>
+	</tr>
+	<tr>
+		<td><input type="text" name="Article3" id="Article3" placeholder="Entrez la désignation"></td>
+		<td><input type="text" name="Prix3" id="Prix3" value="0"></td>
+		<td><input type="text" name="Quantite3" id="Quantite3" value="0"></td>
+		<td><input type="text" name="Resultat3" id="Resultat3" value="0"></td>
+	</tr>
+</table>
+	<input onclick="calculate()" type="button" name="calculate">
+	<input type="reset">
+</form>
+
+
+</body>
+</html>
