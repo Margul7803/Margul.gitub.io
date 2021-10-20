@@ -48,7 +48,7 @@ section
 	border: 2px solid white;
 	height: 47rem;
 	width: 90rem;
-	margin-left: 3%; 
+	margin: auto; 
 	border-radius: 10px;
 }
 header
