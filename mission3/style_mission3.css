@@ -1,0 +1,188 @@
+body
+{
+	font-family: verdana;
+}
+
+
+
+.tableau1
+{
+	border: 1px solid #112337;
+	border-collapse:collapse;
+}
+.tableau2
+{
+	border-collapse:collapse;
+}
+td
+{
+	padding: 0px;
+	border: none;
+	width: 205px;
+}
+
+body
+{
+	color: #112337;
+}
+input
+{	
+	margin-bottom: 2px;
+	padding: 5px;
+	background: transparent;
+	color: #112337;
+	border: 1px solid #112337;
+	border-top: hidden;
+	border-left: hidden;
+	border-right: hidden;
+}
+.noborder
+{
+	border: none;
+	width: 198px;
+}
+.noborder2
+{
+	border: none;
+	text-align: right;
+	width: 190px;
+}
+
+.partie
+{
+	background-color: #112337;
+	color: white;
+	text-align: center;
+}
+
+section
+{
+	margin: auto;
+	width: 825px;
+	height: 990px;
+	border-top: 30px solid #112337;
+	border-bottom: 30px solid #112337;
+}
+
+div
+{	
+	height: 160px;
+	background-color: #E4E4E4;
+}
+.photo
+{
+	height: 150px;
+	width: 150px;
+	float: left;
+	border: 2px solid #112337;
+	color: white;
+	background-color: #112337;
+	text-align: center;
+
+}
+.titre1
+{
+	float: left;
+	height: 150px ;
+	width: 300px;
+}
+.titre2
+{
+	float: right;
+	height: 150px ;
+	width: 180px;
+	text-align: center;
+}
+.div1
+{
+	height: 30px;
+	background-color: white;
+}
+.div2
+{
+	height: 200px;
+	background-color: white;
+}
+.tab1
+{
+	float: left;
+	height: 210px ;
+	width: 350px;
+	background-color: white;
+}
+.tab2
+{
+	float: right;
+	height: 210px ;
+	width: 450px;
+	background-color: white;
+
+}
+p
+{
+	margin: 10px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #112337;
+}
+.condition
+{	
+	width: 350px;
+	float: right;
+}
+
+.ligne1
+{
+	background-color: white;
+}
+.ligne2
+{
+	background-color: #E4E4E4;
+}
+.sous0
+{
+	text-align: right;
+	width: 200px;
+	border: none;
+	font-size: 14px;
+}
+.sous
+{
+	text-align: right;
+	width: 200px;
+	font-size: 14px;
+}
+.solde
+{
+	text-align: right;
+	background-color: #93BADC;
+	border: none;
+	width: 200px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.solde2
+{
+	text-align: right;
+	background-color: #93BADC;
+	border: none;
+	border-top: 2px solid black;
+	width: 200px;
+	font-size: 25px;
+	font-weight: bold;
+}
+.sous2
+{
+	text-align: right;
+	border-top: 2px solid black;
+	font-weight: bold;
+	font-size: 25px;
+}
+p1
+{
+	font-size: 25px;
+	font-weight: bold;
+}
+p2
+{
+	font-size: 10px;
+}

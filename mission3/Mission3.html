@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style_mission3.css">
+	<script type="text/javascript" src="jvs.js"></script>
+</head>
+<body bgcolor="white">
+<section>
+
+<form>
+<div class="top">
+<div>
+	<div class="photo">
+		<br>
+		<br>
+		<br>
+		LOGO
+	</div>
+	<div class="titre1"><br>
+	<input type="text" name="nom_compagnie" placeholder="Nom de la compagnie">
+	<input type="text" name="adresse" placeholder="Adresse postale">
+	<input type="text" name="detail" placeholder="Détail du compte">
+	</div>
+	<div class="titre2">
+	<br>
+	<p1>
+	FACTURE
+	<p1>
+	<input type="date" name="adresse" placeholder="Date">
+	<input type="text" name="detail" placeholder="No de facture">
+	</div>
+</div>
+<div class="div1">
+<input class="condition" type="text" name="condition" placeholder="Condition de paiement, par exemple: dù dans X jours">
+</div>
+<div class="div2">
+	<div class="tab1">
+	<p>Destinataire</p>
+	<input type="text" name="nom" placeholder="Nom"><br>
+	<input type="text" name="nom_société" placeholder="Nom de la société"><br>
+	<input type="text" name="adresse_postale" placeholder="Adresse postale"><br>
+	<input type="text" name="telephone" placeholder="Téléphone"><br>
+	<input type="text" name="email" placeholder="Email">
+	</div>
+	<div class="tab2">
+	<p>Envoyez à</p>
+	<input type="text" name="nom" placeholder="Nom"><br>
+	<input type="text" name="nom_société" placeholder="Nom de la société"><br>
+	<input type="text" name="adresse_postale" placeholder="Adresse postale"><br>
+	<input type="text" name="telephone" placeholder="Téléphone"><br>
+	<input type="text" name="email" placeholder="Email">
+	</div>
+</div>
+</div>
+<center>
+<table class="tableau1">
+<tr class="partie">
+<td>DESCRIPTION</td>
+<td>QUANTITÉ</td>
+<td>PRIX UNITAIRE</td>
+<td>TOTAL</td>	
+</tr>	
+<tr class="ligne1">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"></td>
+<td><input id="prix1" name="prix1" type="text" class="noborder"></td>
+<td><input id="quantité1" name="quantité1" type="text" class="noborder"></td>
+<td><input id="résultat1" name="résultat1" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>	
+<tr class="ligne2">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix2" name="prix2" type="text" class="noborder"></td>
+<td><input id="quantité2" name="quantité2" type="text" class="noborder"></td>
+<td><input id="résultat2" name="résultat2" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>	
+<tr class="ligne1">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix3" name="prix3" type="text" class="noborder"></td>
+<td><input id="quantité3" name="quantité3" type="text" class="noborder"></td>
+<td><input id="résultat3" name="résultat3" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne2">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix4" name="prix4" type="text" class="noborder"></td>
+<td><input id="quantité4" name="quantité4" type="text" class="noborder"></td>
+<td><input id="résultat4" name="résultat4" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne1">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"></td>
+<td><input id="prix5" name="prix5" type="text" class="noborder"></td>
+<td><input id="quantité5" name="quantité5" type="text" class="noborder"></td>
+<td><input id="résultat5" name="résultat5" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne2">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix6" name="prix6" type="text" class="noborder"></td>
+<td><input id="quantité6" name="quantité6" type="text" class="noborder"></td>
+<td><input id="résultat6" name="résultat6" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne1">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix7" name="prix7" type="text" class="noborder"></td>
+<td><input id="quantité7" name="quantité7" type="text" class="noborder"></td>
+<td><input id="résultat7" name="résultat7" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne2">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"></td>
+<td><input id="prix8" name="prix8" type="text" class="noborder"></td>
+<td><input id="quantité8" name="quantité8" type="text" class="noborder"></td>
+<td><input id="résultat8" name="résultat8" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne1">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix9" name="prix9" type="text" class="noborder"></td>
+<td><input id="quantité9" name="quantité9" type="text" class="noborder"></td>
+<td><input id="résultat9" name="résultat9" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne2">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix10" name="prix10" type="text" class="noborder"></td>
+<td><input id="quantité10" name="quantité10" type="text" class="noborder"></td>
+<td><input id="résultat10" name="résultat10" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+<tr class="ligne1">
+<td><input id="article" name="Article" type="text" placeholder="Entrez la désignation" class="noborder"> </td>
+<td><input id="prix11" name="prix11" type="text" class="noborder"></td>
+<td><input id="quantité11" name="quantité11" type="text" class="noborder"></td>
+<td><input id="résultat11" name="résultat11" type="text" value="0.00"  class="noborder2" disabled></td>	
+</tr>
+</table>
+<table class="tableau2">
+<tr>
+<td colspan="2"><p2>Remarques, notes et instructions de paiement:</p2></td>
+<td class="sous">SOUS-TOTAL</td>
+<td><input id="sous-total" name="sous-total" type="text" class="sous" disabled value="0.00"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td class="sous">REMISE</td>
+<td><input id="remise" name="remise" type="text" class="sous" value="0.00"></td>
+</tr>
+<tr>
+<td></td>
+<td colspan="2" class="sous">SOUS-TOTAL MOINS LES REMISES</td>
+<td><input id="sous-total remise" name="sous-total remise" type="text" class="sous" value="0.00" disabled></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td class="sous">TAUX D'IMPOSITION</td>
+<td><input id="taux" name="taux" type="text" class="sous" value="0.00%"></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td class="sous">TAXE TOTAL</td>
+<td><input id="taxer" name="taxer" type="text" class="sous" value="0.00" disabled></td>
+</tr> 
+<tr>
+<td></td>
+<td></td>
+<td class="sous">EXPEDITION/MANUTENTION</td>
+<td><input id="manutention" name="manutention" type="text" class="sous0" value="0.00"></td>
+</tr>
+<tr>
+<td><input type="reset"><input onclick="calculate()" type="button" value="Caluler"><input onclick="acces()" type="button" value="Code"></td>
+<td></td>
+<td class="sous2">SOLDE DU</td>
+<td class="sous2"><input id="solde" name="solde" type="text" class="solde" value="0.00€"disabled></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td><input id="solde2" name="solde2" type="text" class="solde2" disabled></td>
+</tr>
+</table>
+</center>
+</form>
+</section>
+</body>
+</html>
