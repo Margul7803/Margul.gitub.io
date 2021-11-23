@@ -1,0 +1,73 @@
+SELECT *
+FROM `voiture`
+
+SELECT *
+FROM `voiture`
+ORDER BY 'immaticulation'
+
+SELECT *
+FROM `voiture`
+ORDER BY 'marque', 'model'
+
+SELECT *
+FROM `voiture`
+WHERE marque = 'Tesla'
+
+SELECT LOWER( marque ) , LOWER( modele )
+FROM `voiture`
+WHERE marque = 'Tesla'
+
+SELECT UPPER( marque ) , UPPER( modele )
+FROM `voiture`
+WHERE marque = 'Tesla'
+
+ALTER TABLE voiture ADD prix_achat VARCHAR( 100 )
+
+SELECT *
+FROM voiture
+WHERE prix_achat <20000
+AND prix_achat >15000
+
+SELECT *
+FROM voiture
+WHERE prix_achat BETWEEN 15000 AND 20000
+
+SELECT AVG( kilometrage )
+FROM voiture
+WHERE marque = 'mercedes'
+
+SELCT COUNT(*)
+FROM voiture
+WHERE marque="Tesla"
+
+SELECT marque, COUNT( * )
+FROM voiture
+GROUP BY marque
+
+SELECT MAX( kilometrage )
+FROM voiture
+
+SELECT marque,modele,immatriculation
+FROM voiture
+WHERE kilometrage=(SELECT MAX(kilometrage) FROM voiture)
+
+SELECT * FROM clients WHERE ville='paris' OR ville='nice' ou bien WHERE ville='paris' OR 'nice'
+
+SELECT SUM (prix_achat)
+FROM voiture
+WHERE marque='mercedes'
+
+SELECT code_client,ville
+FROM client
+WHERE nom like 'a%'
+
+INSERT INTO voiture(modele,marque,couleur,immatriculaion,kilometrage,carburant,nbr_place,nbr_porte,etat,prix_achat) 
+VALUES
+('570S','mclaren','blanche','64 TU 2100','450','diesel','4','2','parfait','541201');
+('daytona SP3','ferrari','orange','42 RB 2150','6500','diesel','4','2','parfait','666');)
+
+INSERT INTO num_loc(id_location,durée_location,date_location,prix_location,code_client,immatriculation,modele) 
+VALUES
+('98RG','14','20/10/2020','1200','TC0N','44 CC 4000','modele 3')
+
+
