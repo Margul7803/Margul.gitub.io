@@ -1,0 +1,52 @@
+1)
+SELECT *
+FROM employee
+WHERE First_name LIKE 'B%'
+
+2)
+SELECT *
+FROM employee
+WHERE First_name LIKE '%o%'
+
+3)
+SELECT *
+FROM employee
+WHERE First_name LIKE '%n'
+
+4)
+SELECT *
+FROM employee
+WHERE First_name LIKE '___n'
+
+5)
+SELECT *
+FROM employee
+WHERE First_name LIKE 'J___'
+
+6)
+SELECT *
+FROM employee
+WHERE Salary >3000000
+
+7)
+SELECT *
+FROM employee
+WHERE Salary <3000000
+
+8)
+SELECT *
+FROM employee
+WHERE Salary <5000000
+AND Salary >2000000
+
+9)
+Affichage des lignes 0 - 1 (2 total, Traitement en 0.0005 sec.)
+SELECT *
+FROM employee
+WHERE First_name = 'Alex'
+OR First_name = 'Bob'
+
+10)
+SELECT *
+FROM employee
+WHERE YEAR( joining_date ) =2019
